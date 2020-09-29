@@ -1,4 +1,1 @@
-# Graduate Student Seminar
-## UCR Math
-
----
+# Graduate Student Seminar (UCR Math)
