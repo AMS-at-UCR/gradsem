@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Graduate Student Seminar</title>
+  <base href="../..">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/main.css"/>
+  <script src="assets/email-obfuscator.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&family=Alegreya:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Graduate Student Seminar</h1>
+    <section class="banner">
+      <img src="assets/banner.jpg" alt="An image of someone giving a talk in Graduate Student Seminar">
+      <article class="coordinates">
+        <p>Fridays via Zoom</p>
+        <p class="sep">-</p>
+        <p>Social Time: 12.30-1p</p>
+        <p class="sep">-</p>
+        <p>Talk: 1-1.50p</p>
+      </article>
+    </section>
+  </header>
+
+  <main>
+    <section class="feed">
+      <h2>Upcoming Talk</h2>
+      <!---
+      <h2>Scheduled Talks</h2>
+      <h2>Fall 2020</h2>
+      <h2>Winter 2021</h2>
+      <h2>Spring 2021</h2>
+      --->
+      <!---
+      <article>
+        <h4></h4>
+        <h3></h3>
+        <p class="author"></p>
+        <p class="abstract"></p>
+      </article>
+      --->
+    </section>
+    <section class="about">
+      <p>The UC Riverside Math Graduate Student Seminar (GSS) is brought to you by the UCR student chapter of the American Mathematics Society. GSS is organized by the officers of the chapter.</p>
+    </section>
+    <section class="officers">
+      <h2>Officers</h2>
+      <article class="officer">
+        <p>, President</p>
+        <span id="-email"></span>
+      </article>
+      <article class="officer">
+        <p>, Vice President</p>
+        <span id="-email"></span>
+      </article>
+      <article class="officer">
+        <p>, Secretary</p>
+        <span id="-email"></span>
+      </article>
+      <article class="officer">
+        <p>, Treasurer</p>
+        <span id="-email"></span>
+      </article>
+    </section>
+    <section class="archive">
+      <h2>Archive</h2>
+      <ul>
+        <li><a href="./years/2019-2020/">2019-2020</a></li>
+        <li><a href="./years/2018-2019/">2018-2019</a></li>
+        <li><a href="./years/2017-2018/">2017-2018</a></li>
+        <li><a href="./years/2016-2017/">2016-2017</a></li>
+        <li><a href="./years/2015-2016/">2015-2016</a></li>
+        <li><a href="./years/2014-2015/">2014-2015</a></li>
+        <li><a href="./years/2013-2014/">2013-2014</a></li>
+        <li><a href="./years/2012-2013/">2012-2013</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="https://github.com/AMS-at-UCR/gradsem" target="_blank" rel="noopener norefferer">Github repo</a></p>
+    <p class="sep">|</p>
+    <p>&copy; 20XX UCR AMS Officers</p>
+  </footer>
+</body>
