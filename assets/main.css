@@ -1,0 +1,272 @@
+:root{
+  --page-color: #fffaf0;
+  --dark-red: #770f10;
+  --dark-red-transparent: #770f1088;
+  --blue: #068a9c;
+  --orange: #d44a1e;
+  --brown: #5f3e21;
+}
+
+body{
+  text-align: left;
+  color: var(--brown);
+  background: var(--dark-red);
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0px;
+  padding: 24pt 0;
+}
+
+p, a, li, h1, h2, h3, h4{
+  margin: 0;
+  padding: 0;
+}
+p, a{
+  font-size: 12pt;
+  font-weight: 100;
+  line-height: 1.3em;
+  margin-bottom: 6pt;
+}
+a{
+  color: var(--orange);
+  text-decoration: none;
+}
+
+header{
+  background: var(--page-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+h1{
+  color: var(--dark-red);
+  text-align: center;
+  font-family: 'Alegrya', serif;
+  font-size: 24pt;
+  margin: 0;
+  padding: 12pt 0;
+  line-height: 0.9em;
+}
+
+header .banner{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+header .banner img{
+  height: 360px;
+}
+
+header .banner .coordinates{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  background: var(--dark-red-transparent);
+}
+
+header .banner .coordinates p{
+  font-weight: bold;
+  color: var(--page-color);
+  font-size: 18pt;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+header .banner .coordinates .sep{
+  display: none;
+}
+
+@media screen and (min-width: 560px) {
+  h1{
+    font-size: 36pt;
+  }
+
+  header .banner .coordinates{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header .banner .coordinates .sep{
+    display: inline;
+    padding-left: 1ex;
+    padding-right: 1ex;
+  }
+}
+
+h2{
+  color: var(--blue);
+  font-family: 'Alegrya', serif;
+  font-weight: 400;
+  font-size: 18pt;
+  width: 100%;
+  text-align: left;
+}
+
+main, footer{
+  background: var(--page-color);
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 0;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+main section {
+  width: 84%;
+  padding: 0;
+  margin-top: 1em;
+}
+
+main .about {
+  order: -1;
+}
+
+@media screen and (min-width: 720px){
+  main {
+    display: grid;
+    grid-template-columns: 50px auto min(30%, 300px) 50px;
+    grid-template-rows: auto;
+    align-items: start;
+    grid-template-areas:
+      ". feed about ."
+      ". feed officers ."
+      ". feed archive .";
+  }
+  main section {
+    width: 100%;
+  }
+  main .feed {
+    grid-area: feed;
+    width: 95%;
+  }
+  main .about {
+    grid-area: about;
+  }
+  main .officers {
+    grid-area: officers;
+  }
+  main .archive {
+    grid-area: archive;
+  }
+}
+
+main .feed{
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+main .feed #upcoming{
+  background: white;
+  margin: 6pt 0;
+}
+
+main .feed .talk{
+  width: 100%; 
+  padding: 12pt;
+  padding-bottom: 0pt;
+}
+
+main .feed .talk h3{
+  color: var(--orange);
+  font-size: 18pt;
+}
+
+main .feed .talk h4{
+  color: var(--orange);
+  font-size: 12pt;
+}
+
+main .feed .talk .author{
+  font-style: italic;
+}
+
+main .feed .talk .author a{
+  font-style: normal;
+  padding-left: 4pt;
+  color: var(--brown);
+}
+
+main .officers .officer{
+  padding: 6pt 0;
+}
+
+main .officers .officer p{
+  margin:0;
+}
+
+main .archive ul{
+  list-style: none;
+  padding: 6pt 0px;
+  margin: 0px;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding: 2em 0;
+}
+
+footer p{
+  text-align: center;
+}
+
+footer .sep{
+  display: none;
+}
+
+@media screen and (min-width: 480px){
+  footer{ flex-direction: row; }
+
+  footer .sep{
+    display: inline;
+    padding-left: 1ex;
+    padding-right: 1ex;
+  }
+}
+
+.pallete{
+  display: flex;
+  justify-content: center;
+  padding: 12pt;
+  background-color: #888;
+}
+
+.pallete div{
+  width: 24pt;
+  height: 24pt;
+}
+
+.pallete .brown{
+  background-color: var(--brown);
+}
+
+.pallete .blue{
+  background-color: var(--blue);
+}
+
+.pallete .page-color{
+  background-color: var(--page-color);
+}
+
+.pallete .orange{
+  background-color: var(--orange);
+}
+
+.pallete .dark-red{
+  background-color: var(--dark-red);
+}
