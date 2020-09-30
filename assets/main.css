@@ -135,7 +135,7 @@ main .about {
 @media screen and (min-width: 720px){
   main {
     display: grid;
-    grid-template-columns: 50px auto min(30%, 300px) 50px;
+    grid-template-columns: 50px auto 300px 50px;
     grid-template-rows: auto;
     align-items: start;
     grid-template-areas:
