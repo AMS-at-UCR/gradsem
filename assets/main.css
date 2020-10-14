@@ -141,7 +141,8 @@ main .about {
     grid-template-areas:
       ". feed about ."
       ". feed officers ."
-      ". feed archive .";
+      ". feed archive ."
+      ". feed . .";
   }
   main section {
     width: 100%;
