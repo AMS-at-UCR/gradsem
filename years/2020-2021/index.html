@@ -18,29 +18,42 @@
       <img src="assets/banner.jpg" alt="An image of someone giving a talk in Graduate Student Seminar">
       <article class="coordinates">
         <p>Fridays via Zoom</p>
-        <p class="sep">-</p>
-        <p>Social Time: 12.30-1p</p>
-        <p class="sep">-</p>
-        <p>Talk: 1-1.50p</p>
+        <p class="sep">|</p>
+        <p>Social Time: 12.30–1p</p>
+        <p class="sep">|</p>
+        <p>Talk: 1–1.50p</p>
       </article>
     </section>
   </header>
 
   <main>
     <section class="feed">
-      <h2>Upcoming Talk</h2>
-      <article id="upcoming" class="talk">
-        <h4>23 October 2020</h4>
-        <h3>The Polynomial Method over Finite Fields</h3>
-        <p class="author">George Santellano<a href="https://sites.google.com/view/george-santellano/home" target="_blank" rel="noopener norefferer">🌍</a></p>
-        <p class="abstract">The polynomial  method is an umbrella term for using polynomials to bound the possible behavior of finite collections of geometric objects such as points, lines, and other hyperplanes with respect to some geometric relation. To understand the polynomial method over finite fields we will give a brief background to the capset theorem on \(\mathbb{F}_3^4\) and prove it in the method of Dvir. We will also introduce the finite field kakeya theorem and prove it in the method of Ellenberg and Gijswijt.</p>
+      <h2>Fall 2020</h2>
+      <article id="Williams" class="talk">
+        <h4>4 December 2020</h4>
+        <h3>Eat your Fibers</h3>
+        <p class="author">Christian Williams</p>
+        <p class="abstract">Indexing is used throughout math and science -- it's how we organize things in order to analyze or operate on them. There are two ways of thinking about an I-indexed set: a function I -> Set, or a function A -> I. In the latter case, we use preimage to partition the domain into "fibers" over the elements of I. We can think of such a function as a simple example of a "dependent type": for each i in I, there is a type A_i which depends on it.</p>
+        <p class="abstract">In this talk, we generalize this to categories! For each ring R, you get a whole category of R-modules: this forms an "indexed category" Mod : Ring^op -> Cat. A functor B^op -> Cat is equivalent to a fibration p : E -> B, a functor with a good notion of preimage. The fiber over each b in B are the types that depend on b, such as R-modules. But now these are categories rather than just sets, so we have morphisms which allow the fibers to interact.</p>
+        <p class="abstract">We focus on the example where the fiber over each set is its power set -- this is the canonical model of higher-order predicate logic. The goal is to show that fibrations model foundations: the base category B provides the type theory, and the total category E provides a logic "over" this type theory. (Jacobs' Categorical Logic and Type Theory) I will incorporate how I am using these ideas in my research to generate logics for programming languages.</p>
       </article>
-      <h2>Scheduled Talks</h2>
-      <article id="Santellano" class="talk">
-        <h4>23 October 2020</h4>
-        <h3>The Polynomial Method over Finite Fields</h3>
-        <p class="author">George Santellano<a href="https://sites.google.com/view/george-santellano/home" target="_blank" rel="noopener norefferer">🌍</a></p>
-        <p class="abstract">The polynomial  method is an umbrella term for using polynomials to bound the possible behavior of finite collections of geometric objects such as points, lines, and other hyperplanes with respect to some geometric relation. To understand the polynomial method over finite fields we will give a brief background to the capset theorem on \(\mathbb{F}_3^4\) and prove it in the method of Dvir. We will also introduce the finite field kakeya theorem and prove it in the method of Ellenberg and Gijswijt.</p>
+      <article id="Garcia" class="talk">
+        <h4>20 November 2020</h4>
+        <h3>The Milnor-Schwartz Lemma and You: Why we care about Geometric Group Theory</h3>
+        <p class="author">Jacob Garcia</p>
+        <p class="abstract">The Milnor-Schwartz Lemma roughly states that when a finitely generated group G acts in a nice way on a geodesic metric space X, then the group G is essentially the same as X. The relationship between the generating set of G and the metric on X provides a strong tool for asking, for example, questions about word representations of elements in G, and about the self-isometries on X. In this talk, I will describe what it means for a group to act nicely on a metric space, what it means for a group and a metric space to be essentially the same, and I'll sketch a proof of the Milnor-Schwartz Lemma.</p>
+      </article>
+      <article id="Williamson" class="talk">
+        <h4>13 November 2020</h4>
+        <h3>What does Noble even do?</h3>
+        <p class="author">Noble Williamson</p>
+        <p class="abstract">Most of you have probably heard rumors that I do math. Many of you may have even heard rumors that I work on algebraic geometry. This may have raised some concerns given the well-established fact that algebraic geometry is incomprehensible. Between now and when I give this talk I will attempt to figure out what it is that I do and once I do that I will attempt to figure out how to explain it to others. Wish me luck.</p>
+      </article>
+      <article id="Burns" class="talk">
+        <h4>6 November 2020</h4>
+        <h3>Uniqueness of Kähler structure for \(CP^n\)</h3>
+        <p class="author">Matthew Burns</p>
+        <p class="abstract">In this talk, we will focus on many of the cohomological properties that Kähler manifolds enjoy and discuss exactly how formal they are. Three main examples of Kähler manifolds will be emphasized and we will primarily pay attention to complex projective space \(CP^n\). We will also mention important uniqueness results for \(CP^n\) by Hirzebruch-Kodaira-Yau, Kobayashi-Ochiai-Michelsohn, along with Libgober-Wood. Some proofs when n is at most 6 will be included.</p>
       </article>
       <article id="Pokorny" class="talk">
         <h4>30 October 2020</h4>
@@ -48,12 +61,12 @@
         <p class="author">Alexander Pokorny</p>
         <p class="abstract">Skein algebras are made up of equivalence classes of link diagrams on a surface where multiplication is given by stacking diagrams. Studying the skein algebra of the annulus is a good first step towards studying other skein algebras; the annulus typically embeds into other surfaces in interesting and sometimes exhaustive ways. To study the annulus, we first study HOMFLY braids and see what their closures look like. Turaev showed that the set of braid closures is isomorphic to the ring of symmetric functions. Furthermore, linear combinations of HOMFLY braids are elements of the (type A) Hecke algebra, which admits a certain family of minimal idempotents. The fact I will discuss is how closures of these idempotents correspond to Schur functions under the Turaev isomorphism. This is the topic of Sascha Lukac's PhD thesis from the early 2000's, which you can find online.</p>
       </article>
-      <article id="Williams" class="talk">
-        <h4>4 December 2020</h4>
-        <h3>Title TBD</h3>
-        <p class="author">Christian Williams</p>
+      <article id="Santellano" class="talk">
+        <h4>23 October 2020</h4>
+        <h3>The Polynomial Method over Finite Fields</h3>
+        <p class="author">George Santellano<a href="https://sites.google.com/view/george-santellano/home" target="_blank" rel="noopener norefferer">🌍</a></p>
+        <p class="abstract">The polynomial  method is an umbrella term for using polynomials to bound the possible behavior of finite collections of geometric objects such as points, lines, and other hyperplanes with respect to some geometric relation. To understand the polynomial method over finite fields we will give a brief background to the capset theorem on \(\mathbb{F}_3^4\) and prove it in the method of Dvir. We will also introduce the finite field kakeya theorem and prove it in the method of Ellenberg and Gijswijt.</p>
       </article>
-      <h2>Fall 2020</h2>
       <article id="Overduin" class="talk">
         <h4>16 October 2020</h4>
         <h3>Fractals and Taylor Series Expansion</h3>
