@@ -1,6 +1,6 @@
 :root{
-  --page-color: #fffaf0;
-  --dark-red: #770f10;
+  --page-color: #fffaf0; /* Primary-Light */
+  --dark-red: #770f10; /* Primary-Dark */
   --dark-red-transparent: #770f1088;
   --blue: #068a9c;
   --orange: #d44a1e;
