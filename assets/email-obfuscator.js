@@ -40,8 +40,8 @@ window.onload = function () {
     document.getElementById("toomey-email").innerHTML="<n uers=\"znvygb:ngbbz001@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Nylfun</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     //document.body.appendChild(eo);
 
-    // George Santellano
-    document.getElementById("santellano-email").innerHTML="<n uers=\"znvygb:trbetr.fnagryynab@rznvy.hpe.rqh\" gnetrg=\"_oynax\">Rznvy Trbetr</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+    // New Treasurer Here
+    document.getElementById("TBD-email").innerHTML="<n uers=\"znvygb:\" gnetrg=\"_oynax\"></n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);
     //document.body.appendChild(eo);
 };
 
