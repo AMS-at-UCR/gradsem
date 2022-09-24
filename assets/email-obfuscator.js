@@ -36,12 +36,12 @@ window.onload = function () {
     document.getElementById("garcia-email").innerHTML="<n uers=\"znvygb:wtnep351@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Wnpbo</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     //document.body.appendChild(eo);
 
-    // Alysha Toomey
-    document.getElementById("toomey-email").innerHTML="<n uers=\"znvygb:ngbbz001@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Nylfun</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+    // Bill Terry
+    document.getElementById("terry-email").innerHTML="<n uers=\"znvygb:ngbbz001@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Nylfun</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     //document.body.appendChild(eo);
 
-    // Raymond Matson
-    document.getElementById("matson-email").innerHTML="<n uers=\"znvygb:ezngf014@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Enlzbaq</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+    // Rahul Rajkumar
+    document.getElementById("rajkumar-email").innerHTML="<n uers=\"znvygb:ezngf014@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Enlzbaq</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     //document.body.appendChild(eo);
 };
 
