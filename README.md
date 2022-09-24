@@ -33,7 +33,7 @@ In the `./years/` directory, make a new directory labeled with the appropriate a
 
 #### Update redirect
 
-The `./index.html` file is a landing page which forwards you to the most current webpage. This file needs to be updated to forward to the new page. Edit lines 7 and 14 appropriately to make that happen.
+The `./index.html` file is a landing page which forwards you to the most current webpage. This file (which is in the main folder, not the 'years' folder) needs to be updated to forward to the new page. Edit lines 7 and 14 appropriately to make that happen.
 
 #### Update email obfuscator
 
