@@ -37,7 +37,7 @@ The `./index.html` file is a landing page which forwards you to the most current
 
 #### Update email obfuscator
 
-The officers usually link their emails on the webpage. We use a simple email obfuscator to avoid putting our email in plain text on the open internet. The file `./assets/email-obfuscator.js` contains the javascript that does this. Even if you don't know javascript, you can probably stare at this code for a while and figure out how it works and just edit it by hand, but if you don't want to bother with that, you can generate the code with [this](http://rot13.florianbersier.com) tool. Just take the code inside the innermost `script` tag  and paste it into this script filee. You'll also need to change the `"obf"` to something like `"lastname-email"`. You can use the existing code in this file as reference, but you should ultimately overwrite it.
+The officers usually link their emails on the webpage. We use a simple email obfuscator to avoid putting our email in plain text on the open internet. The file `./assets/email-obfuscator.js` contains the javascript that does this. Even if you don't know javascript, you can probably stare at this code for a while and figure out how it works and just edit it by hand, but if you don't want to bother with that, you can generate the code with [this](http://rot13.florianbersier.com) tool. Just take the code inside the innermost `script` tag  and paste it into this script file. You'll also need to change the `"obf"` to something like `"lastname-email"`. You can use the existing code in this file as reference, but you should ultimately overwrite it.
 
 #### Edit page
 
