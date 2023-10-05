@@ -25,19 +25,19 @@
 
 window.onload = function () {
     //----------------------------------------------------------------------------------------------------------------
-    // 2021-2022 Officers // N.B: When creating new officers, comment the old ones to make the display work
+    // 2022-2023 Officers 
     //----------------------------------------------------------------------------------------------------------------
 
     // Will Hoffer
     document.getElementById("hoffer-email").innerHTML="<n uers=\"znvygb:jubss003@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Jvyy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     //document.body.appendChild(eo);
 
-    // Jacob Garcia
-    document.getElementById("garcia-email").innerHTML="<n uers=\"znvygb:wtnep351@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Wnpbo</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+    // Chris Grossack
+    document.getElementById("grossack-email").innerHTML="<n uers=\"znvygb:ptebf007@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Puevf</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     //document.body.appendChild(eo);
 
-    // Bill Terry
-    document.getElementById("terry-email").innerHTML="<n uers=\"znvygb:jgree009@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Ovyy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});    
+    // Jennifer Wang
+    document.getElementById("wang-email").innerHTML="<n uers=\"znvygb:wjnat293@hpe.rqh\" gnetrg=\"_oynax\">Rznvy Wraavsre</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});    
     //document.body.appendChild(eo);
 
     // Rahul Rajkumar
