@@ -2,15 +2,18 @@
   --page-color: #fffaf0; /* Primary-Light */
   --dark-red: #770f10; /* Primary-Dark */
   --dark-red-transparent: #770f1088;
-  --blue: #068a9c;
+  --UCR-blue: #003da5;
+  --UCR-blue-transparent: #003da588;
+  --UCR-gold: #F1AB00;
+  --blue: #009cde;
   --orange: #d44a1e;
-  --brown: #5f3e21;
+  --brown: #000000;
 }
 
 body{
   text-align: left;
   color: var(--brown);
-  background: var(--dark-red);
+  background: var(--UCR-blue);
   font-family: 'Alegreya Sans', sans-serif;
   margin: 0px;
   padding: 24pt 0;
@@ -27,7 +30,7 @@ p, a{
   margin-bottom: 6pt;
 }
 a{
-  color: var(--orange);
+  color: var(--UCR-gold);
   text-decoration: none;
 }
 
@@ -41,7 +44,7 @@ header{
 }
 
 h1{
-  color: var(--dark-red);
+  color: var(--UCR-blue);
   text-align: center;
   font-family: 'Alegrya', serif;
   font-size: 24pt;
@@ -70,7 +73,7 @@ header .banner .coordinates{
   display: flex;
   align-items: center;
   flex-flow: column nowrap;
-  background: var(--dark-red-transparent);
+  background: var(--UCR-blue-transparent);
 }
 
 header .banner .coordinates p{
@@ -180,12 +183,12 @@ main .feed .talk{
 }
 
 main .feed .talk h3{
-  color: var(--orange);
+  color: var(--UCR-gold);
   font-size: 18pt;
 }
 
 main .feed .talk h4{
-  color: var(--orange);
+  color: var(--UCR-gold);
   font-size: 12pt;
 }
 
@@ -265,9 +268,9 @@ footer .sep{
 }
 
 .pallete .orange{
-  background-color: var(--orange);
+  background-color: var(--UCR-gold);
 }
 
 .pallete .dark-red{
-  background-color: var(--dark-red);
+  background-color: var(--UCR-blue);
 }
